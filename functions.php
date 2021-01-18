@@ -1,4 +1,3 @@
-```
 function nxt_ablaufinfo_shortcode($atts, $content = null) {
     global $wpdb;
     $user_id = get_current_user_id();
@@ -21,4 +20,3 @@ function nxt_ablaufinfo_shortcode($atts, $content = null) {
     return $return_string;
 }
 add_shortcode('ablaufinfo', 'nxt_ablaufinfo_shortcode');
-```
